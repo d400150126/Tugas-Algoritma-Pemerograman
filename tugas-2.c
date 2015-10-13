@@ -8,7 +8,7 @@ int main ()
     printf("Masukkan nilai koefisien a, b, dan c:\n");
 d = b*b-4*a*c;
 printf("Diskriminan = %g\n", d);
-printf("Akar persamaan %iX*X + %iX + %i = 0 adalah:\n", a,b,c);
+printf("Akar persamaan %dX*X + %dX + %d = 0 adalah:\n", a,b,c);
 if (d > 0) {
 X1 = (-b+sqrt(d))/(2*a);
 X2 = (-b-sqrt(d))/(2*a);
